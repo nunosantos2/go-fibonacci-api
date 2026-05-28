@@ -13,10 +13,6 @@ on:
         description: 'EC2 SSH username (e.g. student)'
         required: true
         default: 'student'
-      student_number:
-        description: 'Student number (81-90) — maps to port 808<Student Number>'
-        required: true
-        default: '81'
 
 jobs:
   deploy:
